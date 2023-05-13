@@ -38,14 +38,13 @@ h2{
     font-family: 'Archivo Black', sans-serif;
 }
 
-/* Reset default browser styles */
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-/* Center the gallery on the page */
 .gallery {
     display: flex;
     justify-content: center;
@@ -55,7 +54,7 @@ h2{
     margin: 0 auto;
 }
 
-/* Style the image container */
+
 .image-wrapper {
     position: relative;
     width: 200px;
@@ -64,7 +63,6 @@ h2{
     overflow: hidden;
 }
 
-/* Style the image */
 .image-wrapper img {
     width: 100%;
     height: 100%;
@@ -72,7 +70,6 @@ h2{
     transition: transform 0.3s ease;
 }
 
-/* Add hover effect to images */
 .image-wrapper:hover img {
     transform: scale(1.1);
 }
