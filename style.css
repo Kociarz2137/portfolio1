@@ -73,3 +73,22 @@ h2{
 .image-wrapper:hover img {
     transform: scale(1.1);
 }
+
+footer{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: 'Karla', sans-serif;
+    background-color: dimgray;
+    height: 400px;
+    width: auto;
+    bottom: 400px;
+    left: 0;
+    right: 0;
+}
+
+.footer-text{
+    column-gap: 20px;
+    font-family: 'Karla', sans-serif;
+    opacity: 0.5;
+}
